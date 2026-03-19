@@ -8,56 +8,39 @@ body {
     font-family:Ariel, sans-serif;
 }
 
-.bunny {
+.emoji {
     position:absolute;
-    font-size: 60px;
+    font-size:45px;
     opacity:0.6;
 }
-
-.bunny1 {
+.e1{
     top:10%;
     left:10%;
 }
 
-.bunny2 {
+.e2 {
     top:20%;
     right:15%;
 }
 
-.bunny3 {
+.e3 {
     bottom:15%;
     left:20%;
 }
 
-.bunny4 {
-    bottom:10%;
+.e4 {
+    bottom: 10%;
     right:10%;
 }
 
-.flower {
-    position:absolute;
-    font-size: 60px;
-    opacity:0.6;
+.e5{
+    top:50%;
+    left:5%;
 }
 
-.flower1 {
-    top:8%;
-    left:40%;
-}
-
-.flower2 {
-    top:65%;
-    left:8%;
-}
-
-.flower3 {
-    bottom:10%;
-    right:35%;
-}
-
-.flower4 {
-    top:30%;
-    right:10%;
+.e6{
+    top:60%;
+    right:5%;
 }
 
 .clock {
