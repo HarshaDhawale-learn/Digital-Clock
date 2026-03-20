@@ -12,35 +12,54 @@ body {
     position:absolute;
     font-size:45px;
     opacity:0.6;
+    animation: float 6s ease-in-out infinite;
 }
 .e1{
     top:10%;
     left:10%;
+    animation-delay: 0s;
 }
 
 .e2 {
     top:20%;
     right:15%;
+    animation-delay: 1s;
 }
 
 .e3 {
     bottom:15%;
     left:20%;
+    animation-delay: 2s;
 }
 
 .e4 {
     bottom: 10%;
     right:10%;
+    animation-delay: 3s;
 }
 
 .e5{
     top:50%;
     left:5%;
+    animation-delay: 1.5s;
 }
 
 .e6{
     top:60%;
     right:5%;
+    animation-delay: 2.5s;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .clock {
