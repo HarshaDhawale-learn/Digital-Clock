@@ -29,4 +29,4 @@ A responsive digital clock built using HTML, CSS and JavaSript. This project fea
 - More interactive UI elements
   
 ## 🙌 Acknowledgement
-This project was built as part of practicing frontend development and UI design.
+This project was built as part of practicing frontend development and UI design
